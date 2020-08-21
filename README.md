@@ -6,8 +6,6 @@ Description of files:
 
 USVM.m: selecting parameters of USVM using k fold cross-validation. One can select parameters c, mu and e to be used in grid-search method.
 
-rutsvm.m: implementation of RUTSVM-CIL algorithm. Takes parameters c, mu, e, and training data and test data, and provides accuracy obtained and running time.
-
 For running the USVM algorithm, we have included the wpbc dataset. One can simply run the USVM.m file to check the obtained results on this sample dataset. To run experiments on more datasets, simply add datasets in the folder and run USVM.m file.
 
 This code is for non-commercial and academic use only. Please cite the following papers if you are using this code.
